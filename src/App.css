@@ -70,12 +70,9 @@ a{
   position:fixed;
   right: 4vw;
   top: 16vh;
- -webkit-animation: pulsing 3s infinite;
+  -webkit-animation: pulsing 3s infinite;
   animation: pulsing 4s infinite;
-
-
 }
-
 
 @keyframes pulsing {
   0% {
@@ -96,13 +93,12 @@ a{
   transform: scale(1.1);
   transition: .4s linear;
   box-shadow:  rgba(130, 136, 140, 0.53);
-
 }
 
   @media screen and (max-width: 1200px) {
   .modal-button{
-      right: 4vw;
-      top: 14vh;
+  right: 4vw;
+ top: 14vh;
   }
 
   }
